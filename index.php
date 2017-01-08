@@ -6,7 +6,7 @@ $obj= array(
                 'request_fulluri'=>true,
                 'timeout'=>60,
                 'header'=> array(
-                    'Proxy-Authorization : Basic '.base64_encode("ipg_2015003:abhi@98"),
+                    'Proxy-Authorization : Basic '.base64_encode("userid:pass"),
                 )
     ),
     'ftp'=>array(
@@ -15,7 +15,7 @@ $obj= array(
         'request_fulluri'=>true,
         'timeout'=>60,
         'header'=> array(
-            'Proxy-Authorization : Basic '.base64_encode("ipg2015003:abhi@98"),
+            'Proxy-Authorization : Basic '.base64_encode("userid:pass"),
         )
 
 )
